@@ -1,0 +1,134 @@
+body{
+    font-family: montserrat-black;
+}
+#title{
+    height:60rem;
+    background-color:#ff4c68;
+    z-index:-1;
+}
+h1{
+    font-family: montserrat-black;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:white;
+}
+.container-fluid{
+    padding:3% 5% 7%;
+    /* height:23%; */
+}
+.img-title{
+    position: relative;
+    height:60%;
+    margin-top:1.5rem;
+    transform: rotate(25deg);
+    z-index:1;
+}
+@media(max-width:992px){
+    .img-title{
+        transform:rotate(0deg);
+        height:50%;
+        text-align:center;
+    
+    }
+    #title{
+        text-align:center;
+    }
+}
+
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    
+    
+}
+.navbar1{
+    height:80px;
+    text-align: center;
+    padding-top:4rem;
+    z-index:3;
+    position:relative;
+    
+}
+.sachin1{
+    padding-top:5rem;
+}
+.nav-item{
+   
+    padding:1rem;
+    
+}
+.ss{
+    color:white;
+
+}
+
+/* dowenlaod btn */
+.download-btn{
+    margin-top:5%;
+    margin-left:10px;
+    margin-bottom:5%;
+}
+
+/* features */
+
+.sachin2{
+    position: relative;
+    text-align: center;
+    margin:8rem;
+    z-index:2;
+}
+.sachin3{
+    color:orangered;
+   
+    
+}
+.sachin3:hover{
+    color:#ff4c68;
+
+}
+#testimonials{
+    background-color: #ff4c68;
+    text-align:center;
+    font-family:montserrat-black;
+    color:white;
+}
+.dog-img{
+    margin-top:2%;
+    margin-bottom:1%;
+    border-radius: 100%;
+    text-align: center;
+    width:6rem;
+}
+#press{
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding-top:4%;
+    padding-bottom: 2%;
+}
+.ss{
+    width:10rem;
+}
+#pricing{
+    text-align: center;
+    padding:3%;
+}
+.ssbtn{
+    width:100%;
+}
+#cta{
+    text-align: center;
+    background-color: orangered;
+    color:white;
+    padding:4%;
+    font-family:montserrat-black;
+}
+#footer{
+    text-align: center;
+    padding:4%;
+
+}
+.icon{
+    text-align: center;
+    padding:1rem;
+}
+
